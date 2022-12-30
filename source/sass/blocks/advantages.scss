@@ -1,5 +1,7 @@
 .advantages {
   position: relative;
+
+  background-color: aqua;
 }
 
 .advantages__item {
@@ -85,7 +87,10 @@
 }
 
 .advantages__attractions {
+  display: flex;
   padding-bottom: 50px;
+
+  list-style: none;
 }
 
 .advantages__attractions-item {
@@ -137,4 +142,8 @@
 
 .advantages__item:last-child::after {
   display: none;
+}
+
+.advantages__item {
+  list-style: none;
 }

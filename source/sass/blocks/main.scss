@@ -6,6 +6,19 @@
 //   flex-direction: row;
 // }
 
+.welcome__bg {
+  padding-top: 15%;
+  padding-left: 20%;
+
+  background-image: url("../img/welcome-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.main {
+  background-color: rgb(221, 255, 127);
+}
 // .advantages__container--specific {
 //   background-color: #81b3d2;
 // }
