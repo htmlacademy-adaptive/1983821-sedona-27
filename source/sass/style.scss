@@ -1,1 +1,26 @@
 // Начните писать стили здесь
+/*body {
+  background: rgb(118, 236, 207);
+}*/
+
+@import "./global/variables.scss";
+
+@import "./global/fonts.scss";
+
+@import "./global/global.scss";
+
+@import "./global/utils.scss";
+
+@import "./blocks/header.scss";
+
+@import "./blocks/navigation.scss";
+
+@import "./blocks/footer.scss";
+
+@import "./blocks/advantages.scss";
+
+@import "./blocks/main.scss";
+
+@import "./blocks/gallery.scss";
+
+@import "./blocks/hotels.scss";
